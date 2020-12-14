@@ -29,6 +29,6 @@ const keys = Object.keys(user);
 
 for (const key of keys) {
 
-  console.log(`${key}: ${[key]}`);
+  console.log(`${key}: ${user[key]}`);
 
 }
